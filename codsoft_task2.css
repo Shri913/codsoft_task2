@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8b400;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#services {
+    padding: 20px;
+    text-align: center;
+}
+
+.service {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+}
+
+#about, #glamstudio {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 5px 0;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+form input[type="submit"] {
+    background-color: #f8b400;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0;
+    cursor: pointer;
+}
